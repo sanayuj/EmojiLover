@@ -22,7 +22,7 @@ struct ContentView: View {
                         Text(emoji.rawValue)
                     }
                 }.pickerStyle(.segmented)
-            }.navigationTitle("Pet Selector")
+            }.navigationTitle("Pet Selector").navigationBarTitleDisplayMode(.inline)
                 .padding()
         }
        
