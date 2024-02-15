@@ -40,6 +40,14 @@ struct ContentView: View {
                     Image("button")
                 })
                 
+                Button(action: {
+                playerScore=0
+                    cpuScore=0
+                }
+                       , label: {
+                    Text("Reset").foregroundColor(.white)
+                })
+                
                 Spacer()
                 
                 HStack{
